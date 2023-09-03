@@ -1,0 +1,22 @@
+{
+    "cupcakes" : [
+        {
+            "sabor": "Vainilla",
+            "color": "verde",
+            "descripcion": "Cupcake sabor vainilla clásica",
+            "precio": 10
+        },
+        {
+            "sabor": "Chocolate",
+            "color": "marrón",
+            "descripcion": "Cupcake sabor chocolate clásico",
+            "precio": 10
+        },
+        {
+            "sabor": "Fresa",
+            "color": "rojo",
+            "descripcion": "Cupcake sabor fresa clásica",
+            "precio": 10
+        }
+    ]
+}
