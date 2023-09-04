@@ -1,22 +1,44 @@
 {
     "cupcakes" : [
         {
+            "id": 1,
             "sabor": "Vainilla",
-            "color": "verde",
+            "color": "amarillo",
             "descripcion": "Cupcake sabor vainilla clásica",
-            "precio": 10
+            "precio": 10,
+            "imagen": "https://images.pexels.com/photos/1055271/pexels-photo-1055271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
+            "id": 2,
             "sabor": "Chocolate",
-            "color": "marrón",
-            "descripcion": "Cupcake sabor chocolate clásico",
-            "precio": 10
+            "color": "crema",
+            "descripcion": "Cupcake sabor fresa con chispas",
+            "precio": 12,
+            "imagen": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1972&q=80"
         },
         {
+            "id": 3,
             "sabor": "Fresa",
             "color": "rojo",
             "descripcion": "Cupcake sabor fresa clásica",
-            "precio": 10
+            "precio": 10,
+            "imagen": "https://i.pinimg.com/564x/63/98/04/6398044a3e881e702b54a951769fc6a5.jpg"
+        },
+        {
+            "id": 4,
+            "sabor": "Fresa",
+            "color": "rojo",
+            "descripcion": "Cupcake sabor fresa clásica",
+            "precio": 10,
+            "imagen": "https://i.pinimg.com/564x/ee/76/d2/ee76d26c6af0b714d99d02e9ed8856f7.jpg"
+        },
+        {
+            "id": 5,
+            "sabor": "Fresa",
+            "color": "rojo",
+            "descripcion": "Cupcake sabor oreo",
+            "precio": 10,
+            "imagen": "https://images.unsplash.com/photo-1612203985729-70726954388c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
         }
     ]
 }
