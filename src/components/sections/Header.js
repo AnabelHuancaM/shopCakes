@@ -1,24 +1,24 @@
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 const Header = () => {
   return(
 
  <nav className="navbar navbar-expand-lg bg-body-tertiary">
  <div className="container-fluid">
-   <Link className="navbar-brand" to="/">ShopCakes</Link>
+   <NavLink className="navbar-brand" to="/">ShopCakes</NavLink>
    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
      <span className="navbar-toggler-icon"></span>
    </button>
    <div className="collapse navbar-collapse" id="navbarNav">
      <ul className="navbar-nav">
        <li className="nav-item">
-         <Link className="nav-link active" aria-current="page" to="/">Inicio</Link>
+         <NavLink className="nav-link " exact aria-current="page" to="/">Inicio</NavLink>
        </li>
        <li className="nav-item">
-         <Link className="nav-link" to="/cupcakes">Cupcakes</Link>
+         <NavLink className="nav-link" exact to="/cupcakes">Cupcakes</NavLink>
        </li>
        <li className="nav-item">
-         <Link className="nav-link" to="/nosotros">Nosotros</Link>
+         <NavLink className="nav-link" exact to="/nosotros">Nosotros</NavLink>
        </li>
      </ul>
    </div>
