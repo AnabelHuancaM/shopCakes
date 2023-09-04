@@ -1,4 +1,5 @@
 import Header from './sections/Header.js';
+import Footer from './sections/Footer.js';
 import Home from './pages/home.js';
 import Cupcakes from './pages/cupcakes.js';
 import AboutUs from './pages/aboutUs.js';
@@ -16,6 +17,7 @@ const App = () =>{
 
     </Routes>
     </BrowserRouter>
+    <Footer/>
     </>
   )
 }

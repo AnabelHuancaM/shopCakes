@@ -12,7 +12,7 @@ const Cupcakes = () => {
 
     return(
     <div className="container">
-        <h1>Página de Cupcakes</h1>
+        <h1>Échale un vistazo a nuestros cupcakes</h1>
         {
         cupcakes ? (
             <section className='row gy-4'>{
