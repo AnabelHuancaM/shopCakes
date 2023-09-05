@@ -1,3 +1,5 @@
+import  PropTypes from "prop-types"
+
 const Cupcake = ({
     descripcion, 
     sabor, 
@@ -18,5 +20,10 @@ const Cupcake = ({
         </div>
     )
 }
+
+Cupcake.propTypes = {
+    precio : PropTypes.number.isRequired
+}
+
 
 export default Cupcake
