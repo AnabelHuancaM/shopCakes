@@ -1,5 +1,8 @@
 import  PropTypes from "prop-types"
 
+//button
+
+
 const Cupcake = ({
     descripcion, 
     sabor, 
@@ -15,6 +18,11 @@ const Cupcake = ({
                     <p className="card-text">{descripcion}</p>
                     <p className="card-text">Color: {color}</p>
                     <p className="card-text">Precio:{precio}</p>
+
+                    {
+                        //button
+                    }
+                    <a href="#" class="btn btn-primary">Vender</a>
                 </div>
             </div>
         </div>
@@ -22,8 +30,17 @@ const Cupcake = ({
 }
 
 Cupcake.propTypes = {
-    precio : PropTypes.number.isRequired
+    imagen: PropTypes.string,
+    sabor: PropTypes.string.isRequired,
+    descripcion: PropTypes.string.isRequired,
+    color: PropTypes.string.isRequired,
+    precio : PropTypes.number
 }
 
+  /*valores por defecto */
+Cupcake.defaultProps = {
+    imagen : "https://i.pinimg.com/originals/22/51/79/2251791e43795b433321fb468c22e6cb.gif",
+    precio: 0
+}
 
 export default Cupcake

@@ -14,4 +14,8 @@ const Home =() => {
     )
 }
 
+//boton vender, 
+//funcion reservar conexion a la bd metodo get 
+//estado vendido
+//valor true o false
 export default Home

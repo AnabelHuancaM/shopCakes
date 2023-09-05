@@ -10,18 +10,19 @@ const Servicios =({peticion}) => {
     if (!servicios || servicios.lenght === 0) {
         return <span>No hay servicios</span>
     }
-        
-        return(
-            <div className='container'>
-        {
-            servicios.map(s=> (
-                <div key={s.id}>
-                    <h2>{s.nombre}</h2>
-                    <p>{s.descripcion}</p>
-                </div>
-            ))
-        }
-    </div>
+    
+    return(
+        <section className='container'>
+    {
+        servicios.map(s=> (
+            <div key={s.id} className=''>
+                <h3>{s.nombre}</h3>
+                <p >{s.descripcion}</p>
+                <img src={s.imagen} className="img-fluid "/>
+            </div>
+        ))
+    }
+    </section>
 )
 }
 
