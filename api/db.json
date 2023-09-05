@@ -48,5 +48,17 @@
             "precio": 10,
             "imagen": "https://images.unsplash.com/photo-1572451479139-6a308211d8be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
         }
+    ],
+    "servicios": [
+        {
+            "id": 1,
+            "nombre": "Curso de repostería", 
+            "descripcion": "Curso desde 0 de repostería"
+        },
+        {
+            "id": 2,
+            "nombre": "Delivery a todas partes",
+            "descripcion": "Pide y llegaremos a tu casa"
+        }
     ]
 }

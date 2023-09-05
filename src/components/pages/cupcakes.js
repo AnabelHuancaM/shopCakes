@@ -1,19 +1,13 @@
-import { useEffect, useState } from 'react';
+import useFetch from '../../hooks/useFetch';
 import Cupcake from '../cards/Cupcake.js';
 
-const Cupcakes = ( {peticion} ) => {
+const Cupcakes = ({peticion, title}) => {
 
-    const [cupcakes, setCupcakes] = useState()
-
-    useEffect( () => {// traer todos los datos
-       fetch(`http://localhost:3050/${peticion}`)
-        .then(response => response.json()) //respuesta a json
-        .then(data => setCupcakes(data)) //cupcakes tendra el valor de data
-    }, [])
+    const [cupcakes] = useFetch(peticion)
 
     return(
     <div className="container">
-        <h2>Échale un vistazo a nuestros cupcakes</h2>
+        { title && <h2>Échale un vistazo a nuestros cupcakes</h2>}
         {
         cupcakes ? (
             <section className='row gy-4'>{
