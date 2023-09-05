@@ -10,8 +10,8 @@
         },
         {
             "id": 2,
-            "sabor": "Chocolate",
-            "color": "crema",
+            "sabor": "Fresa",
+            "color": "rojo",
             "descripcion": "Cupcake sabor fresa con chispas",
             "precio": 12,
             "imagen": "https://images.unsplash.com/photo-1599785209615-a35f883d93c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
@@ -34,7 +34,7 @@
         },
         {
             "id": 5,
-            "sabor": "Fresa",
+            "sabor": "Oreo",
             "color": "rojo",
             "descripcion": "Cupcake sabor oreo",
             "precio": 10,
