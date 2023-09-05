@@ -6,7 +6,7 @@
             "color": "amarillo",
             "descripcion": "Cupcake sabor vainilla clásica",
             "precio": 10,
-            "imagen": "https://images.pexels.com/photos/1055271/pexels-photo-1055271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            "imagen": "https://images.unsplash.com/photo-1519869325930-281384150729?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2066&q=80"
         },
         {
             "id": 2,
@@ -14,23 +14,23 @@
             "color": "crema",
             "descripcion": "Cupcake sabor fresa con chispas",
             "precio": 12,
-            "imagen": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1972&q=80"
+            "imagen": "https://images.unsplash.com/photo-1599785209615-a35f883d93c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
         },
         {
             "id": 3,
-            "sabor": "Fresa",
-            "color": "rojo",
-            "descripcion": "Cupcake sabor fresa clásica",
+            "sabor": "Menta",
+            "color": "menta",
+            "descripcion": "Cupcake sabor menta fresca",
             "precio": 10,
-            "imagen": "https://i.pinimg.com/564x/63/98/04/6398044a3e881e702b54a951769fc6a5.jpg"
+            "imagen": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
         },
         {
             "id": 4,
-            "sabor": "Fresa",
-            "color": "rojo",
-            "descripcion": "Cupcake sabor fresa clásica",
+            "sabor": "Chocolate",
+            "color": "marrón",
+            "descripcion": "Cupcake sabor chocolate",
             "precio": 10,
-            "imagen": "https://i.pinimg.com/564x/ee/76/d2/ee76d26c6af0b714d99d02e9ed8856f7.jpg"
+            "imagen": "https://images.unsplash.com/photo-1550617931-e17a7b70dce2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
         },
         {
             "id": 5,
@@ -39,6 +39,14 @@
             "descripcion": "Cupcake sabor oreo",
             "precio": 10,
             "imagen": "https://images.unsplash.com/photo-1612203985729-70726954388c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+        },
+        {
+            "id": 6,
+            "sabor": "Zarzamora",
+            "color": "morado",
+            "descripcion": "Cupcake sabor zarzamora con chispas",
+            "precio": 10,
+            "imagen": "https://images.unsplash.com/photo-1572451479139-6a308211d8be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
         }
     ]
 }
