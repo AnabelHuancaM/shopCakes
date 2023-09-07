@@ -8,7 +8,8 @@ const Cupcake = ({
     sabor, 
     imagen, 
     color, 
-    precio
+    precio,
+    estado
 }) => {
     return(
         <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
@@ -18,10 +19,7 @@ const Cupcake = ({
                     <p className="card-text">{descripcion}</p>
                     <p className="card-text">Color: {color}</p>
                     <p className="card-text">Precio:{precio}</p>
-
-                    {
-                        //button
-                    }
+                    <p className="card-text">Estado: {estado}</p>
                     <a href="#" class="btn btn-primary">Vender</a>
                 </div>
             </div>
@@ -34,7 +32,8 @@ Cupcake.propTypes = {
     sabor: PropTypes.string.isRequired,
     descripcion: PropTypes.string.isRequired,
     color: PropTypes.string.isRequired,
-    precio : PropTypes.number
+    precio : PropTypes.number,
+    estado : PropTypes.string
 }
 
   /*valores por defecto */

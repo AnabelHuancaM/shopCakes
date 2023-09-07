@@ -17,7 +17,8 @@ const Cupcakes = ({peticion, title}) => {
                     sabor, 
                     imagen, 
                     color, 
-                    precio
+                    precio,
+                    estado
                 }) => (
                     <Cupcake 
                     key={id}
@@ -25,7 +26,8 @@ const Cupcakes = ({peticion, title}) => {
                     descripcion={descripcion}
                     sabor={sabor}
                     color={color}
-                    precio={precio}/>
+                    precio={precio}
+                    estado={estado}/>
                 ))
             }</section>
             
