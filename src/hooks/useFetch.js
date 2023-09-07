@@ -6,7 +6,7 @@ const useFetch = (endpoint) => {
     const [error, setError] = useState()
 
     useEffect( () => {
-        Axios.get(`http://localhost:3050/${endpoint}`)
+        Axios.get(`${process.env.REACT_APP_URL_API}${endpoint}`)
          .then(({ data }) => setData(data)) 
          .catch(err => setError(err))
      }, [endpoint])
